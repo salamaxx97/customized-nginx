@@ -1,6 +1,6 @@
 FROM nginx
 
-COPY index.html /usr/shre/nginx/html/
+COPY index.html /usr/share/nginx/html/
 
 COPY changePort.sh .
 
