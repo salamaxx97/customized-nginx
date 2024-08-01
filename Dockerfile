@@ -1,4 +1,4 @@
-FROM node
+FROM nginx
 
 COPY index.html /usr/shre/nginx/html/
 
